@@ -1,5 +1,5 @@
-#“ри аргумента.  ортеж кортежей с числами (1/0), номер строки и колонки в виде целых чисел.
-#¬ыходные данные: —колько соседей имеет клетка в виде целого числа. 
+# Input: Three arguments. A grid as a tuple of tuples with integers (1/0), a row number and column number for a cell as integers.
+# Output: How many neighbouring cells have chips as an integer. 
 
 NEIGHBORS = ((-1, -1), (-1, 0), (-1, 1), (0, -1),(0, 1), (1, -1), (1, 0), (1, 1))
 def count_neighbours(grid, row, col):

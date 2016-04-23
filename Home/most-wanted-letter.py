@@ -1,5 +1,5 @@
-# Вх. данные: Текст для анализа, как строка (str, unicode).
-# Вых. данные: Наиболее частая буква, как строка. 
+#  Input: A text for analysis as a string (unicode for py2.7).
+#  Output: The most frequent letter in lower case as a string. 
 
 def checkio(text):
     lowctext = text.lower() #переводит строку в нижний регистр

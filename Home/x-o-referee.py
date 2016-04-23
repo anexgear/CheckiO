@@ -1,5 +1,5 @@
-# Вх. данные: Результат игры, как список (list) строк (str, unicode).
-# Вых. данные: "X", "O" или "D", как строка (str). 
+#  Input: A game result as a list of strings (unicode).
+#  Output: "X", "O" or "D" as a string. 
 
 def checkio(game_result):
     horiz1 = game_result[0]

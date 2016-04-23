@@ -1,5 +1,5 @@
-#Вх.данные: пароль (str)
-#Вых.данные: True или False
+#Input: A password as a string (Unicode for python 2.7).
+#Output: Is the password safe or not as a boolean or any data type that can be converted and processed as a boolean. In the results you will see the converted results.
 
 def checkio ( data ):
     l = len ( data ) >= 10

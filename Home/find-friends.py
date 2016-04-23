@@ -1,6 +1,5 @@
-# Ввод: Три аргумента: информация о друзьях, как кортеж (tuple) строк (str); 
-#первое имя, как строка (str); второе имя, как строка (str).
-# Вывод: Связаны ли указанные дроны между собой, как булево значение (bool). 
+#  Input: Three arguments: Information about friends as a tuple of strings; first name as a string; second name as a string.
+#  Output: Are these drones related or not as a boolean. 
 
 def check_connection(network, first, second):
     future =[]

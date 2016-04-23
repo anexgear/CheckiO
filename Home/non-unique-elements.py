@@ -1,5 +1,5 @@
-#Вх. данные: Список (list) целых чисел (int).
-#Вых. данные: Список (list) уникальных целых чисел (int).
+#Input: A list of integers.
+#Output: The list of integers.
 
 def checkio(data):
     nlist=[]

@@ -1,5 +1,5 @@
-# Входные данные: Массив как список (list) чисел (int).
-# Выходные данные: Медиана как число (int, float). 
+#  Input: An array as a list of integers.
+#  Output: The median as a float or an integer. 
 
 def checkio(data):
     data.sort()

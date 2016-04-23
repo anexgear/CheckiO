@@ -1,5 +1,5 @@
-# Ввод: Пирамида, как кортеж (tuple) кортежей. Каждый кортеж содержит целочисленное (int).
-# Вывод: Максимально количество золота за один забег, как целочисленное (int).
+# Input: A pyramid as a tuple of tuples. Each tuple contains integers.
+# Output: The maximum possible sum as an integer.
 
 def count_gold(pyramid):
     work = list(list(row) for row in pyramid)

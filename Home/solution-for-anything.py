@@ -1,5 +1,5 @@
-# Входные данные: Некоторые данные. Что угодно.
-# Выходные данные: Что-то. 
+#  Input: Some data. Maybe that data over there.
+#  Output: The something as a something-else. 
 
 class co:
     def __init__(self, anything):
