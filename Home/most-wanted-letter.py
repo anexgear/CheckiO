@@ -1,31 +1,18 @@
-#  Input: A text for analysis as a string (unicode for py2.7).
+#  Input: A text for analysis as a string.
 #  Output: The most frequent letter in lower case as a string. 
 
 def checkio(text):
-    lowctext = text.lower() #переводит строку в нижний регистр
-    txtonly = [] # создает пустой список
-    counted = []
-    ulist = []
-    fdict = {}
-    mlista = []
-    strfsort = []
-    strfresult = []
-    for x in lowctext:
-        if x.isalpha( ):  #проверяет является ли елемент буквой
-             txtonly += x #если буква вносит в txtonly
-    for x in txtonly:
-        if txtonly.count(x):
-            counted.append(txtonly.count(x))
-    
-    ulist = zip(txtonly, counted)
-    fdict = dict(ulist)
-    mlista = list(fdict.items())
-    strfsort = str(sorted(mlista, key=lambda x: (-x[1], (x[0]))))
-    for x in strfsort:
-        if x.isalpha( ):
-             strfresult += x
-    
-    return strfresult[0]
+    text= text.lower()
+    splited_text = []
+    for x in text:
+        if x.isalpha():
+            splited_text.append(x)
+    counter = []
+    for x in splited_text:
+        counter.append(splited_text.count(x))
+    text = list(dict(sorted(zip(splited_text, counter))).items())
+    text = str(sorted(text, key=lambda x: (-x[1], (x[0]))))        
+    return text[3]
     
 
 

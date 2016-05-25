@@ -1,15 +1,8 @@
-#Input: A password as a string (Unicode for python 2.7).
+#Input: A password as a string
 #Output: Is the password safe or not as a boolean or any data type that can be converted and processed as a boolean. In the results you will see the converted results.
 
-def checkio ( data ):
-    l = len ( data ) >= 10
-    idig = not data.isdigit( ) 
-    low = not data.islower( )
-    up = not data.isupper( )
-    isalp = not data.isalpha( )
-        
-    result = l and idig and low and up and isalp
-    return result
+def checkio ( data ):    
+    return (len(data)>=10) and (not data.isdigit()) and (not data.islower()) and (not data.isupper()) and (not data.isalpha())
         
 
 if __name__ == '__main__':
